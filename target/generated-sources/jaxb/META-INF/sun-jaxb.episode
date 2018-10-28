@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.2.11 
+Vedere <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2018.10.28 alle 02:46:16 PM CET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <schemaBindings map="false">
+      <package name="it.gov.agenziaentrate.ivaservizi.fatt12"/>
+    </schemaBindings>
+    <bindings scd="~tns:FatturaElettronicaType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.FatturaElettronicaType"/>
+    </bindings>
+    <bindings scd="~tns:FatturaElettronicaHeaderType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.FatturaElettronicaHeaderType"/>
+    </bindings>
+    <bindings scd="~tns:FatturaElettronicaBodyType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.FatturaElettronicaBodyType"/>
+    </bindings>
+    <bindings scd="~tns:DatiTrasmissioneType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiTrasmissioneType"/>
+    </bindings>
+    <bindings scd="~tns:IdFiscaleType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.IdFiscaleType"/>
+    </bindings>
+    <bindings scd="~tns:ContattiTrasmittenteType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.ContattiTrasmittenteType"/>
+    </bindings>
+    <bindings scd="~tns:DatiGeneraliType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiGeneraliType"/>
+    </bindings>
+    <bindings scd="~tns:DatiGeneraliDocumentoType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiGeneraliDocumentoType"/>
+    </bindings>
+    <bindings scd="~tns:DatiRitenutaType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiRitenutaType"/>
+    </bindings>
+    <bindings scd="~tns:DatiBolloType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiBolloType"/>
+    </bindings>
+    <bindings scd="~tns:DatiCassaPrevidenzialeType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiCassaPrevidenzialeType"/>
+    </bindings>
+    <bindings scd="~tns:ScontoMaggiorazioneType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.ScontoMaggiorazioneType"/>
+    </bindings>
+    <bindings scd="~tns:DatiSALType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiSALType"/>
+    </bindings>
+    <bindings scd="~tns:DatiDocumentiCorrelatiType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiDocumentiCorrelatiType"/>
+    </bindings>
+    <bindings scd="~tns:DatiDDTType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiDDTType"/>
+    </bindings>
+    <bindings scd="~tns:DatiTrasportoType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiTrasportoType"/>
+    </bindings>
+    <bindings scd="~tns:IndirizzoType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.IndirizzoType"/>
+    </bindings>
+    <bindings scd="~tns:FatturaPrincipaleType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.FatturaPrincipaleType"/>
+    </bindings>
+    <bindings scd="~tns:CedentePrestatoreType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.CedentePrestatoreType"/>
+    </bindings>
+    <bindings scd="~tns:DatiAnagraficiCedenteType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiAnagraficiCedenteType"/>
+    </bindings>
+    <bindings scd="~tns:AnagraficaType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.AnagraficaType"/>
+    </bindings>
+    <bindings scd="~tns:DatiAnagraficiVettoreType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiAnagraficiVettoreType"/>
+    </bindings>
+    <bindings scd="~tns:IscrizioneREAType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.IscrizioneREAType"/>
+    </bindings>
+    <bindings scd="~tns:ContattiType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.ContattiType"/>
+    </bindings>
+    <bindings scd="~tns:RappresentanteFiscaleType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.RappresentanteFiscaleType"/>
+    </bindings>
+    <bindings scd="~tns:DatiAnagraficiRappresentanteType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiAnagraficiRappresentanteType"/>
+    </bindings>
+    <bindings scd="~tns:CessionarioCommittenteType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.CessionarioCommittenteType"/>
+    </bindings>
+    <bindings scd="~tns:RappresentanteFiscaleCessionarioType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.RappresentanteFiscaleCessionarioType"/>
+    </bindings>
+    <bindings scd="~tns:DatiAnagraficiCessionarioType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiAnagraficiCessionarioType"/>
+    </bindings>
+    <bindings scd="~tns:DatiBeniServiziType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiBeniServiziType"/>
+    </bindings>
+    <bindings scd="~tns:DatiVeicoliType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiVeicoliType"/>
+    </bindings>
+    <bindings scd="~tns:DatiPagamentoType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiPagamentoType"/>
+    </bindings>
+    <bindings scd="~tns:DettaglioPagamentoType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DettaglioPagamentoType"/>
+    </bindings>
+    <bindings scd="~tns:TerzoIntermediarioSoggettoEmittenteType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.TerzoIntermediarioSoggettoEmittenteType"/>
+    </bindings>
+    <bindings scd="~tns:DatiAnagraficiTerzoIntermediarioType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiAnagraficiTerzoIntermediarioType"/>
+    </bindings>
+    <bindings scd="~tns:AllegatiType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.AllegatiType"/>
+    </bindings>
+    <bindings scd="~tns:DettaglioLineeType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DettaglioLineeType"/>
+    </bindings>
+    <bindings scd="~tns:CodiceArticoloType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.CodiceArticoloType"/>
+    </bindings>
+    <bindings scd="~tns:AltriDatiGestionaliType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.AltriDatiGestionaliType"/>
+    </bindings>
+    <bindings scd="~tns:DatiRiepilogoType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DatiRiepilogoType"/>
+    </bindings>
+    <bindings scd="~tns:FormatoTrasmissioneType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.FormatoTrasmissioneType"/>
+    </bindings>
+    <bindings scd="~tns:CausalePagamentoType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.CausalePagamentoType"/>
+    </bindings>
+    <bindings scd="~tns:TipoScontoMaggiorazioneType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.TipoScontoMaggiorazioneType"/>
+    </bindings>
+    <bindings scd="~tns:Art73Type">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.Art73Type"/>
+    </bindings>
+    <bindings scd="~tns:TipoCassaType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.TipoCassaType"/>
+    </bindings>
+    <bindings scd="~tns:TipoDocumentoType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.TipoDocumentoType"/>
+    </bindings>
+    <bindings scd="~tns:TipoRitenutaType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.TipoRitenutaType"/>
+    </bindings>
+    <bindings scd="~tns:SoggettoEmittenteType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.SoggettoEmittenteType"/>
+    </bindings>
+    <bindings scd="~tns:RegimeFiscaleType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.RegimeFiscaleType"/>
+    </bindings>
+    <bindings scd="~tns:CondizioniPagamentoType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.CondizioniPagamentoType"/>
+    </bindings>
+    <bindings scd="~tns:ModalitaPagamentoType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.ModalitaPagamentoType"/>
+    </bindings>
+    <bindings scd="~tns:RitenutaType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.RitenutaType"/>
+    </bindings>
+    <bindings scd="~tns:EsigibilitaIVAType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.EsigibilitaIVAType"/>
+    </bindings>
+    <bindings scd="~tns:NaturaType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.NaturaType"/>
+    </bindings>
+    <bindings scd="~tns:SocioUnicoType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.SocioUnicoType"/>
+    </bindings>
+    <bindings scd="~tns:StatoLiquidazioneType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.StatoLiquidazioneType"/>
+    </bindings>
+    <bindings scd="~tns:TipoCessionePrestazioneType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.TipoCessionePrestazioneType"/>
+    </bindings>
+    <bindings scd="~tns:BolloVirtualeType">
+      <typesafeEnumClass ref="it.gov.agenziaentrate.ivaservizi.fatt12.BolloVirtualeType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.w3.org/2000/09/xmldsig#">
+    <schemaBindings map="false">
+      <package name="it.gov.agenziaentrate.ivaservizi.fatt12"/>
+    </schemaBindings>
+    <bindings scd="~tns:SignatureType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.SignatureType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureValueType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.SignatureValueType"/>
+    </bindings>
+    <bindings scd="~tns:SignedInfoType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.SignedInfoType"/>
+    </bindings>
+    <bindings scd="~tns:CanonicalizationMethodType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.CanonicalizationMethodType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureMethodType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.SignatureMethodType"/>
+    </bindings>
+    <bindings scd="~tns:ReferenceType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.ReferenceType"/>
+    </bindings>
+    <bindings scd="~tns:TransformsType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.TransformsType"/>
+    </bindings>
+    <bindings scd="~tns:TransformType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.TransformType"/>
+    </bindings>
+    <bindings scd="~tns:DigestMethodType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DigestMethodType"/>
+    </bindings>
+    <bindings scd="~tns:KeyInfoType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.KeyInfoType"/>
+    </bindings>
+    <bindings scd="~tns:KeyValueType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.KeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:RetrievalMethodType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.RetrievalMethodType"/>
+    </bindings>
+    <bindings scd="~tns:X509DataType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.X509DataType"/>
+    </bindings>
+    <bindings scd="~tns:PGPDataType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.PGPDataType"/>
+    </bindings>
+    <bindings scd="~tns:SPKIDataType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.SPKIDataType"/>
+    </bindings>
+    <bindings scd="~tns:ObjectType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.ObjectType"/>
+    </bindings>
+    <bindings scd="~tns:ManifestType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.ManifestType"/>
+    </bindings>
+    <bindings scd="~tns:SignaturePropertiesType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.SignaturePropertiesType"/>
+    </bindings>
+    <bindings scd="~tns:SignaturePropertyType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.SignaturePropertyType"/>
+    </bindings>
+    <bindings scd="~tns:DSAKeyValueType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.DSAKeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:RSAKeyValueType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.RSAKeyValueType"/>
+    </bindings>
+    <bindings scd="~tns:X509IssuerSerialType">
+      <class ref="it.gov.agenziaentrate.ivaservizi.fatt12.X509IssuerSerialType"/>
+    </bindings>
+  </bindings>
+</bindings>
+

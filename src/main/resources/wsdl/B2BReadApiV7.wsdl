@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:myschema="http://schema.read.b2b.hub.teamsystem.com/v7"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:tns="http://b2b.hub.teamsystem.com/v7"
+                  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                  name="B2BReadApi_v7"
+                  targetNamespace="http://b2b.hub.teamsystem.com/v7">
+
+    <wsdl:documentation>
+        <author>mondora</author>
+        <creation-date>31/05/2018</creation-date>
+        <last-revision-date>18/06/2018</last-revision-date>
+        <version>7.0</version>
+    </wsdl:documentation>
+
+    <wsdl:types>
+        <xsd:schema>
+            <xsd:import namespace="http://schema.read.b2b.hub.teamsystem.com/v7" schemaLocation="B2BReadApiV7.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+
+    <!-- Fault -->
+    <wsdl:message name="validationExceptionMsg">
+        <wsdl:part name="validationException" element="myschema:validationException"/>
+    </wsdl:message>
+    <wsdl:message name="genericErrorMsg">
+        <wsdl:part name="genericError" element="myschema:genericError"/>
+    </wsdl:message>
+    <wsdl:message name="authenticationExceptionMsg">
+        <wsdl:part name="authenticationException" element="myschema:authenticationException"/>
+    </wsdl:message>
+
+    <wsdl:message name="healthMsg">
+    </wsdl:message>
+    <wsdl:message name="healthResponseMsg">
+        <wsdl:part name="parameters" element="myschema:health_response"/>
+    </wsdl:message>
+
+    <wsdl:message name="downloadFilesMsg">
+        <wsdl:part name="parameters" element="myschema:downloadFiles_request"/>
+    </wsdl:message>
+    <wsdl:message name="downloadFilesResponseMsg">
+        <wsdl:part name="parameters" element="myschema:downloadFiles_response"/>
+    </wsdl:message>
+
+    <wsdl:message name="listFilesMsg">
+        <wsdl:part name="parameters" element="myschema:listFiles_request"/>
+    </wsdl:message>
+    <wsdl:message name="listFilesResponseMsg">
+        <wsdl:part name="parameters" element="myschema:listFiles_response"/>
+    </wsdl:message>
+
+    <wsdl:message name="listChangesFromMsg">
+        <wsdl:part name="parameters" element="myschema:listChangesFrom_request"/>
+    </wsdl:message>
+    <wsdl:message name="listChangesFromResponseMsg">
+        <wsdl:part name="parameters" element="myschema:listChangesFrom_response"/>
+    </wsdl:message>
+
+    <wsdl:portType name="B2BReadApiPortType_v7">
+        <wsdl:operation name="downloadFiles">
+            <wsdl:input name="downloadFiles" message="tns:downloadFilesMsg"/>
+            <wsdl:output name="downloadFilesResponse" message="tns:downloadFilesResponseMsg"/>
+            <wsdl:fault name="GenericError" message="tns:genericErrorMsg"/>
+            <wsdl:fault name="ValidationException" message="tns:validationExceptionMsg"/>
+            <wsdl:fault name="AuthenticationException" message="tns:authenticationExceptionMsg"/>
+        </wsdl:operation>
+        <wsdl:operation name="health">
+            <wsdl:input name="health" message="tns:healthMsg"/>
+            <wsdl:output name="healthResponse" message="tns:healthResponseMsg"/>
+        </wsdl:operation>
+        <wsdl:operation name="listFiles">
+            <wsdl:input name="listFiles" message="tns:listFilesMsg"/>
+            <wsdl:output name="listFilesResponse" message="tns:listFilesResponseMsg"/>
+            <wsdl:fault name="GenericError" message="tns:genericErrorMsg"/>
+            <wsdl:fault name="ValidationException" message="tns:validationExceptionMsg"/>
+            <wsdl:fault name="AuthenticationException" message="tns:authenticationExceptionMsg"/>
+        </wsdl:operation>
+        <wsdl:operation name="listChangesFrom">
+            <wsdl:input name="listChangesFrom" message="tns:listChangesFromMsg"/>
+            <wsdl:output name="listChangesFromResponse" message="tns:listChangesFromResponseMsg"/>
+            <wsdl:fault name="GenericError" message="tns:genericErrorMsg"/>
+            <wsdl:fault name="ValidationException" message="tns:validationExceptionMsg"/>
+            <wsdl:fault name="AuthenticationException" message="tns:authenticationExceptionMsg"/>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="B2BReadApiBinding_v7" type="tns:B2BReadApiPortType_v7">
+        <soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="downloadFiles">
+            <soap12:operation soapAction="" style="document"/>
+            <wsdl:input name="downloadFiles">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="downloadFilesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GenericError">
+                <soap12:fault name="GenericError" use="literal"/>
+            </wsdl:fault>
+            <wsdl:fault name="ValidationException">
+                <soap12:fault name="ValidationException" use="literal"/>
+            </wsdl:fault>
+            <wsdl:fault name="AuthenticationException">
+                <soap12:fault name="AuthenticationException" use="literal"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="health">
+            <soap12:operation soapAction="" style="document"/>
+            <wsdl:input name="health">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="healthResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="listFiles">
+            <soap12:operation soapAction="" style="document"/>
+            <wsdl:input name="listFiles">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="listFilesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GenericError">
+                <soap12:fault name="GenericError" use="literal"/>
+            </wsdl:fault>
+            <wsdl:fault name="ValidationException">
+                <soap12:fault name="ValidationException" use="literal"/>
+            </wsdl:fault>
+            <wsdl:fault name="AuthenticationException">
+                <soap12:fault name="AuthenticationException" use="literal"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="listChangesFrom">
+            <soap12:operation soapAction="" style="document"/>
+            <wsdl:input name="listChangesFrom">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="listChangesFromResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="GenericError">
+                <soap12:fault name="GenericError" use="literal"/>
+            </wsdl:fault>
+            <wsdl:fault name="ValidationException">
+                <soap12:fault name="ValidationException" use="literal"/>
+            </wsdl:fault>
+            <wsdl:fault name="AuthenticationException">
+                <soap12:fault name="AuthenticationException" use="literal"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="B2BReadApi_v7">
+        <wsdl:port name="B2BReadApiPortType_v7" binding="tns:B2BReadApiBinding_v7">
+            <soap12:address location="http://localhost:9090/B2BReadApi_v7/B2BReadApi.ws"/>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>

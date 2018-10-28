@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/wsdl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/xsd/Schema_del_file_xml_FatturaPA_versione_1.2.1.xsd" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/xsd/xmldsig-core-schema.xsd" charset="windows-1252" />
+  </component>
+</project>

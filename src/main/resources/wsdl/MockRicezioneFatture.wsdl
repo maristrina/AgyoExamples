@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://endpoint.mock.sdi.teamsystem.mondora.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns3="http://schemas.xmlsoap.org/soap/http" xmlns:ns1="http://mondora.com/teamsystem/sdi/mock/ws" name="MockRicezioneFattureEndpointService" targetNamespace="http://endpoint.mock.sdi.teamsystem.mondora.com/">
+  <wsdl:import location="http://sdi-mock-test.azurewebsites.net/SDI-mock/MockRicezioneFatture?wsdl=MockRicezioneFatture.wsdl" namespace="http://mondora.com/teamsystem/sdi/mock/ws">
+    </wsdl:import>
+  <wsdl:binding name="MockRicezioneFattureEndpointServiceSoapBinding" type="ns1:MockRicezioneFatture">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="DecorrenzaTermini">
+      <soap:operation soapAction="http://mondora.com/teamsystem/sdi/MockRicezioneFatture/DecorrenzaTermini" style="document"/>
+      <wsdl:input name="DecorrenzaTermini">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="DecorrenzaTerminiResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFatture">
+      <soap:operation soapAction="http://mondora.com/sdi/MockRicezioneFatture/UploadFatture" style="document"/>
+      <wsdl:input name="UploadFatture">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="UploadFattureResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MockRicezioneFattureEndpointService">
+    <wsdl:port binding="tns:MockRicezioneFattureEndpointServiceSoapBinding" name="MockRicezioneFattureEndpointPort">
+      <soap:address location="http://sdi-mock-test.azurewebsites.net/SDI-mock/MockRicezioneFatture"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
