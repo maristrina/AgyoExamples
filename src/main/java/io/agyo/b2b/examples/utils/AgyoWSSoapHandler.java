@@ -19,13 +19,9 @@ public class AgyoWSSoapHandler<T> implements SOAPHandler<SOAPMessageContext> {
     public boolean handleFault(SOAPMessageContext arg0) {
         SOAPMessage message = arg0.getMessage();
         try {
-        	String xml = getMessageAsFormattedString(message);
-        	
-//       		log.debug("FAULT MESSAGE\n<pre>\n"+new EscapeTool().xml(xml)+"\n</pre>");
-       		System.out.println("FAULT MESSAGE\n"+xml+"\n");
-        	
+       		System.out.println("FAULT MESSAGE\n"+getMessageAsFormattedString(message)+"\n");
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
         return true;
     }
@@ -36,16 +32,13 @@ public class AgyoWSSoapHandler<T> implements SOAPHandler<SOAPMessageContext> {
         try {
             boolean isOut = (Boolean) arg0.get(MessageContext.MESSAGE_OUTBOUND_PROPERTY);
             
-            String xml = getMessageAsFormattedString(message);
-            
            	out.append(isOut?"OUTBOUND MESSAGE (request) \n":"INBOUND MESSAGE (response) \n");
-//            out.append("<pre>\n").append(new EscapeTool().xml(xml)).append("\n</pre>");
-            out.append("\n").append(xml).append("\n");
+            out.append("\n").append(getMessageAsFormattedString(message)).append("\n");
 
             System.out.println(out.toString());
 
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
         return true;
     }

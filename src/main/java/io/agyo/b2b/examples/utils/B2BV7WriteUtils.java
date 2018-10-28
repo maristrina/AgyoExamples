@@ -42,9 +42,7 @@ public class B2BV7WriteUtils {
 
             String transmitter = fatt.getFatturaElettronicaHeader().getDatiTrasmissione().getIdTrasmittente().getIdCodice();
             String sender = fatt.getFatturaElettronicaHeader().getCedentePrestatore().getDatiAnagrafici().getIdFiscaleIVA().getIdCodice();
-            String recipient = fatt.getFatturaElettronicaHeader().getCedentePrestatore().getDatiAnagrafici().getCodiceFiscale();
-            if (recipient == null && fatt.getFatturaElettronicaHeader().getCessionarioCommittente().getDatiAnagrafici().getIdFiscaleIVA() != null)
-                recipient = fatt.getFatturaElettronicaHeader().getCessionarioCommittente().getDatiAnagrafici().getIdFiscaleIVA().getIdCodice();
+            String recipient = fatt.getFatturaElettronicaHeader().getDatiTrasmissione().getCodiceDestinatario();
 
             XMLGregorianCalendar dataFatt = fatt.getFatturaElettronicaBody().get(0).getDatiGenerali().getDatiGeneraliDocumento().getData();
             String numeroFattura = fatt.getFatturaElettronicaBody().get(0).getDatiGenerali().getDatiGeneraliDocumento().getNumero();

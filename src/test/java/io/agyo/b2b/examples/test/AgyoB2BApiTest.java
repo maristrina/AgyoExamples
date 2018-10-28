@@ -4,10 +4,11 @@ import io.agyo.b2b.examples.ApiSoap;
 import org.junit.Ignore;
 import org.junit.Test;
 
-@Ignore
+//@Ignore
 public class AgyoB2BApiTest {
     String userid = "xxx";
     String password = "xxx";
+
     @Test
     public void listFiles() throws Exception {
         new ApiSoap(userid, password).listFilesStatus("A_DISPOSIZIONE");
