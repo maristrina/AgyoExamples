@@ -1,0 +1,12 @@
+.idea/
+*.iml
+.DS_Store
+target
+secret-dev.yml
+secret-test.yml
+secret-master.yml
+env.sh
+env_test.sh
+env_prod.sh
+run.bat
+env.cmd

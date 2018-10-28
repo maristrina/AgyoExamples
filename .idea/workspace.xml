@@ -1,7 +1,389 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b00a1f-df99-4535-99dc-de80179ebd0a" name="Default Changelist" comment="" />
+    <list default="true" id="b1b00a1f-df99-4535-99dc-de80179ebd0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agyo-b2b-examples-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mondora/teamsystem/sdi/mock/endpoint/MockRicezioneFattureEndpointService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mondora/teamsystem/sdi/mock/ws/MockRicezioneFatture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mondora/teamsystem/sdi/mock/ws/types/DecorrenzaTerminiRequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mondora/teamsystem/sdi/mock/ws/types/DecorrenzaTerminiResponseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mondora/teamsystem/sdi/mock/ws/types/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mondora/teamsystem/sdi/mock/ws/types/UploadFattureRequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mondora/teamsystem/sdi/mock/ws/types/UploadFattureResponseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mondora/teamsystem/sdi/mock/ws/types/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/AuthApiPortTypeV1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/AuthApiV1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/AuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/AuthenticationExceptionMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/GetNonce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/GetNonceResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/VerifyDigest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/VerifyDigestResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/VerifyToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/VerifyTokenResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/auth/soap/v1/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/AuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/AuthenticationExceptionMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/B2BReadApiPortTypeV7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/B2BReadApiV7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Documents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/DownloadFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/DownloadFilesResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/GenericError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/GenericErrorMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Hash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Identifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/ListChangesFrom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/ListChangesFromResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/ListFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/ListFilesResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/MapStatusList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/MapStatusListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Metadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Pagination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/StatusList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/ValidationExceptionMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/read/v7/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/AcceptFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/AcceptFilesResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Attachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Attachments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/AuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/AuthenticationExceptionMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/B2BWriteApiPortTypeV7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/B2BWriteApiV7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ConfirmDownloads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ConfirmDownloadsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Documents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ExtStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ExtraData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Files.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/GenericError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/GenericErrorMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Hash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/HubIds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Identifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Metadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Reason.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Reasons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/RejectFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/RejectFilesResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/SendAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/SendActionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ShareFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ShareFileResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Upload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/UploadFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/UploadFilesResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/Uploads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/ValidationExceptionMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/teamsystem/hub/b2b/soap/write/v7/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/agyo/b2b/examples/ApiSoap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/agyo/b2b/examples/utils/AgyoWSHandlerResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/agyo/b2b/examples/utils/AgyoWSSoapHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/agyo/b2b/examples/utils/AuthUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/agyo/b2b/examples/utils/B2BV7ReadUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/agyo/b2b/examples/utils/B2BV7WriteUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/agyo/b2b/examples/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/AllegatiType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/AltriDatiGestionaliType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/AnagraficaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/Art73Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/BolloVirtualeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/CanonicalizationMethodType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/CausalePagamentoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/CedentePrestatoreType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/CessionarioCommittenteType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/CodiceArticoloType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/CondizioniPagamentoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/ContattiTrasmittenteType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/ContattiType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DSAKeyValueType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiCedenteType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiCessionarioType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiRappresentanteType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiTerzoIntermediarioType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiVettoreType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiBeniServiziType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiBolloType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiCassaPrevidenzialeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiDDTType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiDocumentiCorrelatiType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiGeneraliDocumentoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiGeneraliType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiPagamentoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiRiepilogoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiRitenutaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiSALType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiTrasmissioneType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiTrasportoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DatiVeicoliType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DettaglioLineeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DettaglioPagamentoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/DigestMethodType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/EsigibilitaIVAType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/FatturaElettronicaBodyType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/FatturaElettronicaHeaderType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/FatturaElettronicaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/FatturaPrincipaleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/FormatoTrasmissioneType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/IdFiscaleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/IndirizzoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/IscrizioneREAType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/KeyInfoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/KeyValueType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/ManifestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/ModalitaPagamentoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/NaturaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/ObjectType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/PGPDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/RSAKeyValueType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/RappresentanteFiscaleCessionarioType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/RappresentanteFiscaleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/ReferenceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/RegimeFiscaleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/RetrievalMethodType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/RitenutaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SPKIDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/ScontoMaggiorazioneType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SignatureMethodType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SignaturePropertiesType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SignaturePropertyType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SignatureType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SignatureValueType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SignedInfoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SocioUnicoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/SoggettoEmittenteType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/StatoLiquidazioneType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/TerzoIntermediarioSoggettoEmittenteType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/TipoCassaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/TipoCessionePrestazioneType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/TipoDocumentoType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/TipoRitenutaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/TipoScontoMaggiorazioneType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/TransformType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/TransformsType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/X509DataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/X509IssuerSerialType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/gov/agenziaentrate/ivaservizi/fatt12/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wsdl/AuthApi.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wsdl/AuthApi.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wsdl/B2BReadApiV7.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wsdl/B2BReadApiV7.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wsdl/B2BWriteApiV7.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wsdl/B2BWriteApiV7.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wsdl/MockRicezioneFatture.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xsd/Schema_del_file_xml_FatturaPA_versione_1.2.1.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xsd/xmldsig-core-schema.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cxf-codegen-plugin-markers/.53F63729F7E8C84DE8BC1CA00B7D324150C09954" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cxf-codegen-plugin-markers/.5AAA9F049DB4E11EEE740D2BD3E5DF30CFA40D60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cxf-codegen-plugin-markers/.5BA0B7E6EB8A35919A9E4DCAEA32A745123085B5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cxf-codegen-plugin-markers/.FED634A9A52982241B6A3DB0115A854E28CDBE65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/mondora/teamsystem/sdi/mock/endpoint/MockRicezioneFattureEndpointService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/mondora/teamsystem/sdi/mock/ws/MockRicezioneFatture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/mondora/teamsystem/sdi/mock/ws/types/DecorrenzaTerminiRequestType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/mondora/teamsystem/sdi/mock/ws/types/DecorrenzaTerminiResponseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/mondora/teamsystem/sdi/mock/ws/types/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/mondora/teamsystem/sdi/mock/ws/types/UploadFattureRequestType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/mondora/teamsystem/sdi/mock/ws/types/UploadFattureResponseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/mondora/teamsystem/sdi/mock/ws/types/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/AuthApiPortTypeV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/AuthApiV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/AuthenticationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/AuthenticationExceptionMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/GetNonce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/GetNonceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/VerifyDigest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/VerifyDigestResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/VerifyToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/VerifyTokenResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/auth/soap/v1/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/AuthenticationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/AuthenticationExceptionMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/B2BReadApiPortTypeV7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/B2BReadApiV7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Documents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/DownloadFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/DownloadFilesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/GenericError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/GenericErrorMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Hash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Identifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/ListChangesFrom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/ListChangesFromResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/ListFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/ListFilesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/MapStatusList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/MapStatusListItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Metadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Pagination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/StatusList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/ValidationExceptionMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/read/v7/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/AcceptFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/AcceptFilesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Attachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Attachments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/AuthenticationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/AuthenticationExceptionMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/B2BWriteApiPortTypeV7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/B2BWriteApiV7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ConfirmDownloads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ConfirmDownloadsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Documents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ExtStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ExtraData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Files.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Flow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/GenericError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/GenericErrorMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Hash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/HubIds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Identifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Metadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Reason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Reasons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/RejectFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/RejectFilesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/SendAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/SendActionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ShareFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ShareFileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Upload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/UploadFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/UploadFilesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/Uploads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/ValidationExceptionMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/cxf/com/teamsystem/hub/b2b/soap/write/v7/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/META-INF/sun-jaxb.episode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/AllegatiType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/AltriDatiGestionaliType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/AnagraficaType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/Art73Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/BolloVirtualeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/CanonicalizationMethodType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/CausalePagamentoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/CedentePrestatoreType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/CessionarioCommittenteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/CodiceArticoloType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/CondizioniPagamentoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/ContattiTrasmittenteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/ContattiType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DSAKeyValueType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiCedenteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiCessionarioType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiRappresentanteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiTerzoIntermediarioType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiAnagraficiVettoreType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiBeniServiziType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiBolloType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiCassaPrevidenzialeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiDDTType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiDocumentiCorrelatiType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiGeneraliDocumentoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiGeneraliType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiPagamentoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiRiepilogoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiRitenutaType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiSALType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiTrasmissioneType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiTrasportoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DatiVeicoliType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DettaglioLineeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DettaglioPagamentoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/DigestMethodType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/EsigibilitaIVAType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/FatturaElettronicaBodyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/FatturaElettronicaHeaderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/FatturaElettronicaType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/FatturaPrincipaleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/FormatoTrasmissioneType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/IdFiscaleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/IndirizzoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/IscrizioneREAType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/KeyInfoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/KeyValueType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/ManifestType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/ModalitaPagamentoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/NaturaType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/ObjectType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/PGPDataType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/RSAKeyValueType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/RappresentanteFiscaleCessionarioType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/RappresentanteFiscaleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/ReferenceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/RegimeFiscaleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/RetrievalMethodType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/RitenutaType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SPKIDataType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/ScontoMaggiorazioneType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SignatureMethodType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SignaturePropertiesType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SignaturePropertyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SignatureType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SignatureValueType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SignedInfoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SocioUnicoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/SoggettoEmittenteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/StatoLiquidazioneType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/TerzoIntermediarioSoggettoEmittenteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/TipoCassaType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/TipoCessionePrestazioneType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/TipoDocumentoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/TipoRitenutaType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/TipoScontoMaggiorazioneType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/TransformType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/TransformsType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/X509DataType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/X509IssuerSerialType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/it/gov/agenziaentrate/ivaservizi/fatt12/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jaxb2/.xjc-fatturapa-12-xjcStaleFlag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-io.agyo.b2b.examples.test.AgyoB2BApiTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/io.agyo.b2b.examples.test.AgyoB2BApiTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/agyo/b2b/examples/test/AgyoB2BApiTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +396,16 @@
     <session id="-1449073644">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="java" value="9" />
+          <entry key="md" value="1" />
           <entry key="xml" value="1" />
           <entry key="xsd" value="3" />
         </counts>
@@ -28,6 +413,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="9" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -35,6 +422,7 @@
         <counts>
           <entry key="dummy" value="9" />
           <entry key="java" value="1958" />
+          <entry key="md" value="347" />
           <entry key="txt" value="13" />
           <entry key="xml" value="201" />
           <entry key="xsd" value="2" />
@@ -43,6 +431,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1958" />
+          <entry key="Markdown" value="347" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="XML" value="203" />
         </counts>
@@ -50,7 +439,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,7 +464,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/agyo/b2b/examples/test/AgyoB2BApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="221">
               <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,11 +473,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/ApiSoap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="120" column="52" lean-forward="true" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+            <state relative-caret-position="675">
+              <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +485,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="272">
+                <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/utils/B2BV7WriteUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="357">
               <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
             </state>
           </provider>
@@ -108,7 +514,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/utils/B2BV7ReadUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="986">
               <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
             </state>
           </provider>
@@ -131,6 +537,9 @@
       <replace>B2BV7WriteUtils</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -145,6 +554,7 @@
         <option value="$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/utils/B2BV7WriteUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/agyo/b2b/examples/test/AgyoB2BApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/ApiSoap.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -159,7 +569,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="1" />
     <option name="width" value="1920" />
@@ -170,6 +580,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,26 +599,6 @@
               <item name="agyo-b2b-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="agyo-b2b-examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agyo-b2b-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agyo-b2b-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agyo-b2b-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agyo-b2b-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agyo-b2b-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agyo-b2b-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,25 +615,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agyo-b2b-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agyo-b2b-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540734803873" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -254,6 +638,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Progetti\Marina\agyo-b2b-examples" />
       <recent name="C:\Progetti\Marina\agyo-b2b-examples\src\main\resources\xsd" />
       <recent name="C:\Progetti\Marina\agyo-b2b-examples\src\main\java\io\agyo\b2b\examples\utils" />
       <recent name="C:\Progetti\Marina\agyo-b2b-examples\src\main\resources" />
@@ -286,6 +671,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="DB Browser" order="1" />
@@ -295,23 +681,23 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Job Explorer" order="6" />
       <window_info id="Designer" order="7" />
-      <window_info content_ui="combo" id="Project" order="8" visible="true" weight="0.24786781" />
+      <window_info active="true" content_ui="combo" id="Project" order="8" visible="true" weight="0.24840085" />
       <window_info id="Structure" order="9" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Console" order="4" />
       <window_info anchor="bottom" id="DB Execution Console" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3531961" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3531961" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.13219616" />
+      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.13059701" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -371,6 +757,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/IT01234567890_FPA01.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -388,23 +781,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/utils/B2BV7WriteUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/utils/B2BV7ReadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/agyo/b2b/examples/test/AgyoB2BApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="221">
           <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -412,20 +791,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/IT01234567890_FPA01.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/utils/B2BV7WriteUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="357">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/utils/B2BV7ReadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/agyo/b2b/examples/ApiSoap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="120" column="52" lean-forward="true" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+        <state relative-caret-position="675">
+          <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="272">
+            <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
